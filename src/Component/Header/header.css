@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+
+}
+
+.hamburger{
+    font-size: 24px;
+}
+
+.webMenu{
+    display: flex;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+.name{
+    display: flex;
+    font-size: 30px;
+    font-weight: 800 ;
+    color: blueviolet;
+
+}
+
+@media only screen and (max-width : 720px){
+    .mobileMenu{
+        display: flex;
+    }
+
+    .webMenu{
+        display: none;
+    }
+
+    .name{
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth;  /*It will do the smooth behaviour on scrolling */
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto; /* to align in center  */
+    
+    
+}
+
+/* Media Queries */
+
+@media only screen and (max-width : 1024px){   /*For screen less then laptops*/
+    .home{
+        width: 90%;
+    }
+}
+@media only screen and (max-width : 512px){    /*For screen less than tablets*/
+   .home{
+       width: 100%;
+   } 
+}
