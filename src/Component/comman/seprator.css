@@ -1,0 +1,7 @@
+.seprator{
+    background-image: linear-gradient(to right top, #20246e, #313b85, #43539c, #556cb2, #6985c9, #6898da, #67acea, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height: 6px;
+    width: 40%;
+    border-radius: 3px;
+    margin: 16px 0px;
+}

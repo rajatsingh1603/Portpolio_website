@@ -1,0 +1,42 @@
+.about{
+    padding-bottom: 48px;
+}
+
+.about_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_image{
+    height: 420px;
+}
+
+.about_text{
+    font-size: 24px;
+}
+
+.main_skill{
+    font-size: 32px;
+    color: blue;
+}
+
+@media only screen and (max-width : 720px){
+    .about_top{
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_image{
+        height: 280px;
+    }
+
+    .about_text{
+        font-size: 20px;
+    }
+
+    .main_skill{
+        font-size: 26px;
+    }
+}
