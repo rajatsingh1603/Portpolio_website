@@ -8,13 +8,9 @@ import './content.css';
 
 function Content() {
   return <div className='content_body'>
-      <h1>Content</h1>
+      
       <section id='about'>
         <About />
-      </section>
-
-      <section id='contact'>
-        <Contact />
       </section>
 
       <section id='project'>
@@ -28,6 +24,14 @@ function Content() {
       <section id='work'>
         <Work />
       </section>
+
+      <section id='contact'>
+        <Contact />
+      </section>
+
+      
+
+      
 
   </div>;
 }

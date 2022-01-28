@@ -2,7 +2,7 @@ import React from 'react';
 import "../home/style.css";
 import Header from '../Header/Header';
 import Content from '../Content/Content';
-import Footer from '../Footer';
+import Footer from '../footer/Footer'
 function Home() {
     return (<div className='home'>
         <Header />
